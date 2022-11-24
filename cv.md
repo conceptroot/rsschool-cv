@@ -1,4 +1,4 @@
-**Name:** Alisher Beknazarov
+# Alisher Beknazarov
 
 ## Contacts
 **Telegram:** @conceptroot
@@ -8,7 +8,11 @@
 **Discord nickname on rs school discord server:** conceptroot (@conceptroot)
 
 ## Summary:
-> TODO 
+Initially studied programming at the university.
+
+Now there is an opportunity to grow professionally at my current place. Python has been very helpful for automating and analitics at my current job. For example telegram bot for Jira Software that was built by me used by employees in our company.
+
+The next goal is frontend to be a full stack developer.
 
 ## Skills
 - Python
