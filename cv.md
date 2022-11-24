@@ -27,6 +27,7 @@ The next goal is front-end to be a full stack developer.
 
 ## Portfolio
 1. [Final task from course Fundamentals of Computer and Web Technologies with Python by Digitalize](https://github.com/conceptroot/rksok22)
+2. [Codewars profile](https://www.codewars.com/users/conceptroot/stats)
 
 ## Experience
 2 years in Python development
