@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu:wght@300;700&display=swap');
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.wrapper {
+    font-family: "Raleway";
+    /* display: flex; */
+    /* justify-content: center; */
+    border: 1px dotted;
+    border-color: brown;
+    background-color: antiquewhite;
+}
+
+.header {
+    display: flex;
+}
+
+.border {
+    display: flex;
+    border: 1px solid;
+    background-color: beige;
+}
+
+.left-column {
+    width: 30%;
+}
+
+.right-column {
+    width: 70%;
 }
