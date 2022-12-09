@@ -10,14 +10,10 @@ h1 {
 
 .wrapper {
     font-family: "Raleway";
-    /* font-size: larger; */
     color: rgb(50, 50, 50);
 
     display: flex;
     flex-direction: column;
-    /* align-items: stretch; */
-    /* border: 1px dotted; */
-    /* border-color: brown; */
     background-color: rgb(255, 255, 254);
     width: 90%;
     margin-top: 2rem;
@@ -39,7 +35,8 @@ h1 {
     justify-content: space-evenly;
     list-style: none;
 }
-li{
+
+.navigation-li {
     margin: 0.3rem;
 }
 
@@ -51,7 +48,48 @@ li{
     display: flex;
 }
 
+.list {
+    list-style: none;
+    padding-left: 1rem;
+}
 
+.li {
+    display: block;
+    margin:0.2rem;
+    padding: 0.2rem;
+}
+.li-tag {
+    display: inline-block;
+    color: white;
+    font-size: large;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+}
+.li-tg {
+    background-color: rgb(75,156,216);
+}
+
+.li-discord {
+    background-color: rgb(91,101,237);
+}
+
+.li-python {
+    background-color: rgb(242,209,95);
+    color: rgb(68,110,158);
+}
+
+.li-git {
+    background-color: rgb(226,90,56);
+}
+
+.li-docker {
+    background-color: rgb(71,142,221);
+}
+
+.li-js {
+    background-color: rgb(243,224,80);
+    color: black;
+}
 /* .article { */
     /* padding: 1rem; */
 /* } */
