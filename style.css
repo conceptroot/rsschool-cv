@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu:wght@300;700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 }
@@ -38,6 +42,18 @@ h1 {
 
 .navigation-li {
     margin: 0.3rem;
+}
+.navigation a{
+    padding: 0.3rem;
+    text-decoration: none;
+    color: rgb(50,50,50);
+}
+
+.navigation a:hover {
+    color: white;
+    border: 1px;
+    background-color: rgb(50,50,50);
+    border-radius: 0.2rem;
 }
 
 .header {
