@@ -161,3 +161,8 @@ h1 {
     flex-direction: column;
     width: 65%;
 }
+
+.python-code {
+    padding: 1rem;
+    background-color: antiquewhite;
+}
