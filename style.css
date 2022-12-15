@@ -1,3 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu:wght@300;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.title {
+    margin: 0;
+
+    font-size: 4rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: "Raleway";
+    color: rgb(50, 50, 50);
+
+    background-color: rgb(255, 255, 254);
+    box-shadow: 0px 0px 20px 9px rgba(0, 0, 0, 0.20);
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+
+    list-style: none;
+}
+
+.navigation-li {
+    margin: 0.3rem;
+}
+
+.navigation a {
+    padding: 0.3rem;
+
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+}
+
+.navigation a:hover {
+    color: white;
+
+    background-color: rgb(50, 50, 50);
+    border: 1px;
+    border-radius: 0.2rem;
+}
+
+.header {
+    display: flex;
+}
+
+.main {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1rem;
+}
+
+.footer * {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.list {
+    padding-left: 1rem;
+
+    list-style: none;
+}
+
+.li {
+    display: block;
+    margin: 0.2rem;
+    padding: 0.2rem;
+}
+
+.li-tag {
+    display: inline-block;
+    padding: 0.2rem;
+
+    font-size: large;
+    color: white;
+
+    border-radius: 0.2rem;
+}
+
+.li-tg {
+    background-color: rgb(75, 156, 216);
+}
+
+.li-discord {
+    background-color: rgb(91, 101, 237);
+}
+
+.li-python {
+    color: rgb(68, 110, 158);
+
+    background-color: rgb(242, 209, 95);
+}
+
+.li-git {
+    background-color: rgb(226, 90, 56);
+}
+
+.li-docker {
+    background-color: rgb(71, 142, 221);
+}
+
+.li-js {
+    color: black;
+
+    background-color: rgb(243, 224, 80);
+}
+
+.photo-container {
+    display: flex;
+}
+
+.photo {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.05);
+}
+
+.card-link {
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+}
+
+.card-link:hover {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+
+    width: 65%;
+}
+
+.python-code {
+    display: block;
+    padding: 1rem;
+
+    background-color: antiquewhite;
 }
