@@ -7,59 +7,65 @@ html {
 body {
     margin: 0;
 }
-h1 {
+
+.title {
     margin: 0;
+
     font-size: 4rem;
 }
 
 .wrapper {
-    font-family: "Raleway";
-    color: rgb(50, 50, 50);
-
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 255, 254);
     width: 90%;
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0px 0px 20px 9px rgba(0,0,0,0.20);
+
+    font-family: "Raleway";
+    color: rgb(50, 50, 50);
+
+    background-color: rgb(255, 255, 254);
+    box-shadow: 0px 0px 20px 9px rgba(0, 0, 0, 0.20);
 }
 
 .navigation {
     display: flex;
-    /* justify-content: space-evenly; */
 }
 
 .navigation-list {
     display: flex;
-    width: 100%;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 100%;
+
     list-style: none;
 }
 
 .navigation-li {
     margin: 0.3rem;
 }
-.navigation a{
+
+.navigation a {
     padding: 0.3rem;
+
     text-decoration: none;
-    color: rgb(50,50,50);
+    color: rgb(50, 50, 50);
 }
 
 .navigation a:hover {
     color: white;
+
+    background-color: rgb(50, 50, 50);
     border: 1px;
-    background-color: rgb(50,50,50);
     border-radius: 0.2rem;
 }
 
 .header {
-    /* display: block; */
     display: flex;
 }
+
 .main {
     display: flex;
 }
@@ -78,76 +84,75 @@ h1 {
 }
 
 .list {
-    list-style: none;
     padding-left: 1rem;
+
+    list-style: none;
 }
 
 .li {
     display: block;
-    margin:0.2rem;
+    margin: 0.2rem;
     padding: 0.2rem;
 }
+
 .li-tag {
     display: inline-block;
-    color: white;
-    font-size: large;
-    border-radius: 0.2rem;
     padding: 0.2rem;
+
+    font-size: large;
+    color: white;
+
+    border-radius: 0.2rem;
 }
+
 .li-tg {
-    background-color: rgb(75,156,216);
+    background-color: rgb(75, 156, 216);
 }
 
 .li-discord {
-    background-color: rgb(91,101,237);
+    background-color: rgb(91, 101, 237);
 }
 
 .li-python {
-    background-color: rgb(242,209,95);
-    color: rgb(68,110,158);
+    color: rgb(68, 110, 158);
+
+    background-color: rgb(242, 209, 95);
 }
 
 .li-git {
-    background-color: rgb(226,90,56);
+    background-color: rgb(226, 90, 56);
 }
 
 .li-docker {
-    background-color: rgb(71,142,221);
+    background-color: rgb(71, 142, 221);
 }
 
 .li-js {
-    background-color: rgb(243,224,80);
     color: black;
+
+    background-color: rgb(243, 224, 80);
 }
-/* .article { */
-    /* padding: 1rem; */
-/* } */
 
 .photo-container {
     display: flex;
-    /* flex-wrap: wrap; */
-    /* width: 100%; */
-    /* justify-content: center; */
 }
 
 .photo {
     display: block;
     max-width: 100%;
     max-height: 100%;
-    /* border-radius: 1rem; */
 
 }
 
-.border {
-    /* border: 1px solid; */
+.card {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    /* background-color: rgba(32, 178, 171, 0.22); */
     margin: 1rem;
     padding: 1rem;
-    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.05);
+
     border-radius: 0.5rem;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.05);
 }
 
 .left-column {
@@ -159,10 +164,13 @@ h1 {
 .right-column {
     display: flex;
     flex-direction: column;
+
     width: 65%;
 }
 
 .python-code {
+    display: block;
     padding: 1rem;
+
     background-color: antiquewhite;
 }
