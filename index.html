@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Alisher</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="navigation">
+      <ul class="navigation-list">
+        <li class="navigation-li">
+          <a href="#summary">Summary</a>
+        </li>
+        <li class="navigation-li">
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li class="navigation-li">
+          <a href="#training">Training</a>
+        </li>
+        <li class="navigation-li">
+          <a href="#contacts">Contacts</a>
+        </li>
+        <li class="navigation-li">
+          <a href="#skills">Skills</a>
+        </li>
+        <li class="navigation-li">
+          <a href="#experience">Experience</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="header">
+      <div class="left-column">
+        <div class="photo-container card">
+          <img class="photo" src="assets/photo.svg" alt="avatar">
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="card">
+          <h1 class="title">Alisher Beknazarov</h1>
+          <h2>Full Stack Web Developer</h2>
+        </div>
+      </div>
+    </header>
+    <main class="main ">
+      <div class="left-column ">
+        <section class="card">
+          <h2 id="contacts">Contacts</h2>
+          <ul class="list">
+            <li class="li"><span class="li-tag li-tg">Telegram:</span> <span>@conceptroot</span></li>
+            <li class="li"><span class="li-tag li-discord">Discord:</span> conceptroot#1301</li>
+          </ul>
+        </section>
+        <section class="card">
+          <h2 id="skills">Skills</h2>
+          <ul class="list">
+            <li><span class="li li-tag li-python">Python</span></li>
+            <li>
+              <ul class="list">
+                <li class="li li-tag li-python">FastApi</li>
+                <li class="li li-tag li-python">Pydantic</li>
+                <li class="li li-tag li-python">SQLAlchemy, Alembic </li>
+                <li class="li li-tag li-python">Aiogram</li>
+                <li class="li li-tag li-python">Pandas</li>
+              </ul>
+            </li>
+            <li><span class="li li-tag li-git">Git</span></li>
+            <li><span class="li li-tag li-docker">Docker, docker-compose</span></li>
+            <li><span class="li li-tag li-js">JavaScript for Google Apps</span></li>
+          </ul>
+        </section>
+        <section class="card">
+          <h2 id="experience">Experience</h2>
+          <p>2 years in Python development</p>
+        </section>
+
+        <section class="card">
+          <h2>English level</h2>
+          <p><b>B1</b></p>
+          <p>2 years of practice in the United States</p>
+        </section>
+      </div>
+      <div class="right-column ">
+        <section class="card">
+          <h2 id="summary">Summary</h2>
+          <p>
+            Initially studied programming at the university.
+          </p>
+          <p>
+            Now there is an opportunity to grow professionally at my current place. Python has been very helpful for
+            automating and analytics at my current job. For example telegram bot for Jira Software that was built by me
+            used by employees in our company.
+          </p>
+          <p>
+            The next goal is front-end to be a full stack developer.
+          </p>
+        </section>
+        <section class="card">
+          <h2 id="portfolio">Portfolio</h2>
+          <ol>
+            <li>
+              <a class="card-link" href="https://github.com/conceptroot/rksok22" target="_blank">Final task from course Fundamentals of
+                Computer and Web Technologies with Python by Digitalize</a>
+            </li>
+            <li>
+              <a class="card-link" href="https://www.codewars.com/users/conceptroot/stats" target="_blank">Codewars profile</a>
+            </li>
+
+          </ol>
+        </section>
+        <section class="card">
+          <h2 id="training">Training</h2>
+          <ol>
+            <li>
+              <a class="card-link" href="https://stepik.org/course/96018/syllabus">Fundamentals of Computer and Web Technologies with
+                Python by Digitalize</a>
+            </li>
+          </ol>
+        </section>
+        <section class="card">
+          <h2>Code Example</h2>
+          <p>Convert string to camel case</p>
+          <code class="python-code">
+import re<br>
+<br>
+def to_camel_case(text):<br>
+  &nbsp;&nbsp;array = [word.capitalize() if i&gt;0 else word for i, word in enumerate(re.split(r'[-_]',text))]<br>
+  &nbsp;&nbsp;return "".join(array)
+          </code>
+        </section>
+      </div>
+
+    </main>
+    <footer class="footer">
+      <span>&copy; 2022 by Alisher Beknazarov</span>
+      <a href="https://github.com/conceptroot" target="_blank">
+        <img class="footer-image" src="assets/github-mark.svg" alt="Github logo">
+      </a>
+      <a href="https://rs.school/js-stage0/" target="_blank">
+        <img class="footer-image" src="assets/rs_school_js.svg" alt="rs school logo">
+      </a>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
